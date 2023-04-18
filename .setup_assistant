@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: myrobot
+    relative_path: urdf/mycobot_pro_gazebo.urdf
+    xacro_args: ""
+  SRDF:
+    relative_path: config/mycobot_pro.srdf
+  CONFIG:
+    author_name: morita-kazuma
+    author_email: morita-kazuma@g.ecc.u-tokyo.ac.jp
+    generated_timestamp: 1681270714
