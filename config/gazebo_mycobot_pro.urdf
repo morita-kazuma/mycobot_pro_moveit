@@ -190,7 +190,7 @@
     <joint name="link6_to_magsensor" type="fixed">
         <parent link="link6" />
         <child link="magsensor" />
-        <origin rpy="0 0 -1.5708 " xyz="-0.025 -0.0 0.001" />
+        <origin rpy="0 0 3.141592" xyz="-0.0 -0.005 0.0" />
     </joint>
     <link name="magsensor">
         <visual>
